@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <style>
+        .container {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f7f7f7;
+            border-radius: 8px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 20px;
+            margin-top: 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+  <h2>Hello,</h2>
+  <p>Thank you for registering! Please confirm your email by clicking the button below:</p>
+  <a th:href="${confirmationUrl}" class="btn">Confirm Email</a>
+</div>
+</body>
+</html>
