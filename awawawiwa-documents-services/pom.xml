@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.awawawiwa</groupId>
 	<artifactId>awawawiwa-documents-services</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.2-SNAPSHOT</version>
 	<name>awawawiwa-documents-services</name>
 	<description>Document and Email services for awawawiwa</description>
 	<url/>

@@ -11,3 +11,9 @@ services:
     env_file: 
       - .env
     restart: always
+    networks:
+      - quiz-network
+
+networks:
+  quiz-network:
+    external: true

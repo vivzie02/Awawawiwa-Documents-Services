@@ -24,7 +24,9 @@
 <div class="container">
   <h2>Hello,</h2>
   <p>Thank you for registering! Please confirm your email by clicking the button below:</p>
-  <a th:href="${confirmationUrl}" class="btn">Confirm Email</a>
+  <form th:action="${confirmationUrl}" method="post">
+    <button type="submit" class="btn">Confirm Email</button>
+  </form>
 </div>
 </body>
 </html>
